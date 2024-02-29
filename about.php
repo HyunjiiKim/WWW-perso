@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,11 +11,11 @@
         <div id="logo" style="height: 100px; width: 20%; margin-left: 15px;"><a href="instagram.com"><img src="https://www.meilleure-innovation.com/wp-content/uploads/2022/04/logo-instagram.png" style="height: 100%; weight: 100%;"></a></div>
         <div id="banner" style="width: 75%; height: 100px; "><img src="https://fastly.picsum.photos/id/240/1080/100.jpg?hmac=WdEaZ10fNDGHcBA5KXzMuxMHYoCR_1MPbB6OfOxIEUQ"></div>
     </header>
-    <nav style="width: 1440px; margin: 0px auto; height: 20px;"><ul style=" display: flex; justify-content: space-between; font-size: 16pt; list-style-type:none;">
-        <li>Home</li>
-        <li >About</li>
-        <li>article</li>
-        <li>contact</li>
+    <nav style="width: 1440px; margin: 0px auto; height: 20px;"><ul style=" display: flex; justify-content: space-between; font-size: 16pt; list-style-type:none; text-decoration: none; color:inherit;">
+        <a href="index.php"><li>Home</li></a>
+        <a href="about.php"><li >About</li></a>
+        <a href="article.php"><li>article</li></a>
+        <a href="contact.php"><li>contact</li></a>
     </ul></nav>
     <section>
     </section>
