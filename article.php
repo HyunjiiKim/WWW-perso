@@ -9,8 +9,7 @@
 <body>
     <?php include 'includes/header.php'?> 
     <?php include 'includes/menu.php'?>
-    <section>
-    </section>
+    <?php include 'includes/section.php'?>
     <?php include 'includes/footer.php'?>
 </body>
 </html>
