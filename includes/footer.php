@@ -1,0 +1,2 @@
+<footer style="width: 1440px; height: 200px; margin: auto; border: 1px solid red; display: flex; align-items: center; justify-content: center;"> <div>Copyright Hyunji KIM. All rights reserved.</div>
+</footer>
