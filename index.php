@@ -10,10 +10,7 @@
     <?php include 'includes/header.php'?>
     <?php include 'includes/menu.php'?>
     <section style="width:1440px; margin: 20px auto;">
-        <div id="contain1" style="height: 350px; background-color: #67B6BE;">
-            <h1>Bienvenue chez moi ! </h1>
-            <p>Ce site est développé par moi si vous avez questions, n'hesitez pas à m'écrire.</p>
-        </div>
+        <?php include 'includes/main.php'?>
         <div id="contain2" style="display:flex; height: 350px; flex-grow:1;">
             <div class="subcontain" style=" width: 33.3%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
                 <div class="content" style="width: 80%; height: 80%; overflow: clip; display: flex; flex-direction: column; align-items: center;">
@@ -41,8 +38,8 @@
         Furthermore, we discuss best practices for implementing responsive design, such as prioritizing content hierarchy, optimizing loading times, and testing across various devices and browsers. By embracing responsive web design, developers can create user-centric experiences that engage and delight users across the digital landscape.</p>
                 </div>
                 <div class="pubInfo" style="width: 80%; display: flex; font-size: 14px; justify-content: space-between;">
-                    <p>13:42</p>
-                    <p>29.02.2024</p>
+                    <p><?php echo date('h:i')?></p>
+                    <p><?php echo date('d-m-Y')?></p>
                 </div>
             </div>
             <div class="subcontain" style=" width: 33.3%; height: 100%; display: flex; flex-direction: column;">
