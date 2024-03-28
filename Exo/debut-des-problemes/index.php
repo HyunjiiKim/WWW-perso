@@ -1,3 +1,4 @@
+
 <?php
 
 /*$firstname = 'lola';
@@ -15,11 +16,24 @@ echo '<br />'.$new_sentence;
 $char="sdazksqdaesccvdffgxqdq";
 
 if(strlen($char)>20){
-	echo "la chaine de caracthère est trop longue.";
+	echo "la chaine de caracthère est trop longue. Le nombre de caratères est ".strlen($char);
 }
 else{
 	echo $char;
 }
+
+function textlimit($char,$limit){
+	if($char>$limit){
+		$char;
+	}
+	else{
+		return 'Trop court';
+	}
+}
+
+echo textlimit($char,22);
+
+# strlen() représente le nombre de caratère de string. 
 
 
 /*$age = 18;
@@ -49,17 +63,18 @@ function createCircle($size,$color){
 	return '<div style="width:'.$size.'px; background:'.$color.';height:'.$size.'px; border-radius: 50%;"></div>';
 }
 
-//is_numeric, is_int 
+//is_numeric, is_integer 
 
 
 $size=100;
 $color='orange';
 if(is_numeric($size)&&is_string($color)){
-	echo createCircle(100,$color);
+	echo createCircle($size,$color);
 }
 else{
 	echo "Erreur ! Je t'invite a refaire !";
 }
+
 
 
 ?>

@@ -1,3 +1,4 @@
+<?php $pageTitle='Article'; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
