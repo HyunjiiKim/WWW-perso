@@ -20,12 +20,34 @@ $groupE = [
 
 #var_dump($groupE);
 
-function displayT($a){
+/*function displayT($a){
     echo '<table><tr>';
     for($i=0;$i>=count($a);$i++){
-        echo '<th>'.$a["$i"]
+        echo '<th>'.$a[$i].'</th>';
+        for($j=0;$j>=count($a[$j]);$j++)
+        echo '<tr>'.$a[$i][$j].'</tr>';
+        
     }
-    
-}
+    echo '</tr></table>';*/
 
+
+    function displayT($a){
+        echo '<table><tr>';
+      
+        foreach($a as $key => $value) {
+            echo '<th>'.$key.'</th>';
+        }
+        echo '</tr>';
+        
+        for($i = 0; $i < count($a["name"]); $i++) {
+            echo '<tr>';
+            foreach($a as $key => $value) {
+                echo '<td>'.$a[$key][$i].'</td>';
+            }
+            echo '</tr>';
+        }
+        echo '</table>';
+    }
+
+displayT($groupE);
 ?>
