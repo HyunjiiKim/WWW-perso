@@ -1,0 +1,239 @@
+/*General Settings*/
+
+body{
+    margin: 0 auto;
+    background-color: #0d0d0d;
+}
+
+        /*Font*/
+
+        h1{
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-size: 72pt;
+        }
+    
+        h2{
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-size: 48pt;
+        }
+    
+        h3{
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-size: 36pt;
+        }
+    
+        h4{
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-size: 24pt;
+        }
+    
+        h5{
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-size: 18pt;
+        }
+    
+        p{
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-size: 16pt;
+        }
+    
+            @font-face {
+                font-family: 'BaskerVille';
+                src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Regular.ttf');
+                font-style: normal;
+            }
+    
+            @font-face {
+                font-family: 'BaskerVille';
+                src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Italic.ttf');
+                font-style: italic;
+            }
+    
+            @font-face {
+                font-family: 'BaskerVille';
+                src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Bold.ttf');
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: 'Playfair';
+                src: url('https://hyunjiikim.github.io/MBW/font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+            }
+    
+            @font-face {
+                font-family: 'Playfair';
+                src: url('https://hyunjiikim.github.io/MBW/font/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+                font-style: italic;
+            }
+
+/*header*/
+
+header{
+    width: 1440px;
+    height: 137px;
+    margin: 0 auto;
+    background-color: #961919;
+
+}
+
+    nav {
+        font-family: 'BaskerVille';
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        height: 100%;
+    }
+
+        #logo{
+            margin-left: 30px;
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-weight: bold;
+            font-size: 24pt;
+        }
+
+        ul {
+            font-size: 24pt;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+            ul li{
+                margin-left: 15px;
+            }
+
+                ul li:last-child {
+                    margin-right: 82px;
+                }
+
+            nav a {
+                text-decoration: none;
+                color: rgba(217,217,217,0.85)
+            }
+
+            nav a.current {
+                color: #fcfcfc;
+                font-weight: bold;
+            }
+
+/*section*/
+    
+    #content{
+        width: 1440px;
+        margin: 120px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .ContactInfoS{
+            display: flex;
+            align-items: baseline;
+        }
+
+            .ContactInfoS a{
+                color: inherit;
+                text-decoration: none;
+            }
+
+            .ContactInfoS p{
+                line-height: 120%;
+            }
+
+            .ContactInfoS .email{
+                width: 24px;
+                height: 18px;
+                margin-right: 42px;
+            }
+
+            .ContactInfoS .map{
+                width: 21px;
+                height: 27px;
+                margin-right: 42px;
+            }
+
+        .Map{
+            margin-top: 45px;
+        }
+        
+        .Map iframe{
+            border-radius: 9px;
+        }
+
+    #v-line{
+        border-left : 1px solid #f2f2f2;
+        height : 500px;
+        margin-top: 213px;
+    }
+
+    #Right{
+        margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .CardS_List{
+            margin-top: 25px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .CardS{
+            background-color: #f0f0f0;
+            width: 255px;
+            height: 33px;
+            border-radius: 6px;
+            margin: 15px 0;
+            font-family: 'Playfair';
+            font-size: 12pt;
+            color:#0d0d0d;
+        }
+
+        .CardL{
+            background-color: #f0f0f0;
+            width: 350px;
+            height: 230px;
+            border-radius: 6px;
+            font-family: 'Playfair';
+            font-size: 12pt;
+            color:#0d0d0d;
+        }
+
+        input{
+            background-color: #a62626;
+            color: #f2f2f2;
+            font-family: 'BaskerVille';
+            font-size: 12pt;
+            text-align: center;
+            border-radius: 8px;
+            border: none;
+            padding: 3px;
+            width: 112px;
+            height: 29px;
+            align-self: flex-end;
+            margin-right: 38px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+/*footer*/
+
+footer{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    margin: 150px auto 0 ;
+    color: #fcfcfc;
+    background-color: #961919;
+    justify-content: center;
+    align-items: center;
+
+}

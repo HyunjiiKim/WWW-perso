@@ -1,0 +1,285 @@
+/*General Settings*/
+
+body{
+    margin: 0 auto;
+    background-color: #0d0d0d;
+}
+
+    /*Font*/
+
+    h1{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 72pt;
+    }
+
+    h2{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 48pt;
+    }
+
+    h3{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 36pt;
+    }
+
+    h4{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 24pt;
+    }
+
+    h5{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 18pt;
+    }
+
+    p{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 16pt;
+    }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Regular.ttf');
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Italic.ttf');
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Bold.ttf');
+            font-weight: bold;
+        }
+
+    .italic{
+        font-style: italic;
+    }
+
+    .bold{
+        font-weight: bold;
+    }
+
+        /*Text Color*/
+
+            .accent5{
+                color: #ff4040;
+            }
+
+            .white{
+                color:#fcfcfc;
+            }
+
+        /*Text Alignment*/
+
+            .RightT{
+                text-align: right;
+            }
+        
+        /*BTN*/
+        
+            .BTN{
+                background-color: #A62626;
+                width: 112px;
+                height: 31px;
+                border-radius: 8px;
+                color: #f2f2f2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+                .BTN a{
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+/*header*/
+
+header{
+    width: 1440px;
+    height: 137px;
+    margin: 0 auto;
+    background-color: #961919;
+
+}
+
+    nav {
+        font-family: 'BaskerVille';
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        height: 100%;
+    }
+
+        #logo{
+            margin-left: 30px;
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-weight: bold;
+            font-size: 24pt;
+        }
+
+        nav ul {
+                font-size: 24pt;
+                list-style: none;
+                display: flex;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav ul li{
+                    margin-left: 15px;
+                }
+
+                nav ul li:last-child {
+                        margin-right: 82px;
+                    }
+
+            nav a {
+                text-decoration: none;
+                color: rgba(217,217,217,0.85)
+            }
+
+            nav a.current {
+                color: #fcfcfc;
+                font-weight: bold;
+            }
+
+
+
+/*section*/
+
+    #article{
+        width: 1440px;
+        margin: 50px auto;
+    }
+
+        #title hr{
+            border: solid 1.5px #f2f2f2;
+        }
+
+    #category{
+        font-size: 18pt;
+        font-family: 'BaskerVille';
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 36px;
+        margin-bottom: 120px;
+    }
+
+        #category div{
+            margin-left: 20px;
+        }
+
+    /*content*/
+
+    #content{
+        width: 1200px;
+        margin: 50px auto;
+    }
+    
+        .imgR{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+            .imgR .img{
+                height: fit-content;
+                box-sizing: content-box;
+                order: 2;
+            }
+
+            .imgR .img img{
+                width: 460px;
+                height: auto;
+            }
+
+            .img figcaption{
+                font-family: 'BaskerVille';
+                font-style: italic;
+                font-size: 11pt;
+                color:#f2f2f2;
+                text-align: center;            
+            }
+
+        .imgwth{
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .imgwth .img{
+                width: 820px;
+                height: auto;
+                margin-top: 30px;
+            }
+
+            .imgwth .img img{
+                width: 100%;
+            }
+
+            .imgwth .text{
+                margin: 30px 0;
+            }
+
+        .imgL{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .imgL img{
+                box-sizing: content-box;
+                order: 1;
+            }
+
+            .imgL .img img{
+                width: 460px;
+            }
+
+        .img{
+            margin: 20px auto;
+            width: 580px;
+            height: auto;
+        }
+
+    #src{
+        width: 1200px;
+        margin: 50px auto;
+        }
+
+        #src ul{
+            margin-top: 50px;
+            font-size: 16pt;
+            color: #fcfcfc;
+            font-family: 'BaskerVille';
+        }
+
+/*footer*/
+
+footer{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    margin: 150px auto 0 ;
+    color: #fcfcfc;
+    background-color: #961919;
+    justify-content: center;
+    align-items: center;
+
+}

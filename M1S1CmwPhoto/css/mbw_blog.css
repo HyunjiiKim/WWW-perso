@@ -1,0 +1,265 @@
+/*General Settings*/
+
+body{
+    margin: 0 auto;
+    background-color: #0d0d0d;
+}
+
+    /*Font*/
+
+    h1{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 72pt;
+    }
+
+    h2{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 48pt;
+    }
+
+    h3{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 36pt;
+    }
+
+    h4{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 24pt;
+    }
+
+    h5{
+        font-family: 'BaskerVille';
+        color: rgba(217,217,217,0.85);
+        font-weight: normal;
+        font-style: italic;
+        font-size: 18pt;
+    }
+
+    p{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
+        font-size: 16pt;
+    }
+
+    .legend{
+        font-size: 14pt;
+        color:#0d0d0d;
+        font-family: 'BaskerVille';
+        font-style: italic;
+    }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Regular.ttf');
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Italic.ttf');
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Bold.ttf');
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Playfair';
+            src: url('https://hyunjiikim.github.io/MBW/font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+        }
+
+        @font-face {
+            font-family: 'Playfair';
+            src: url('https://hyunjiikim.github.io/MBW/font/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+            font-style: italic;
+        }
+
+    .italic{
+        font-style: italic;
+    }
+
+    .bold{
+        font-weight: bold;
+    }
+
+        /*Text Alignment*/
+
+            .RightT{
+                text-align: right;
+            }
+
+        /*Text color*/
+
+            .whiteT{
+                color:#fcfcfc;
+            }
+
+            .blackT{
+                color:#0d0d0d;
+            }
+        /*BTN*/
+        
+            .BTN{
+                background-color: #A62626;
+                width: 112px;
+                height: 31px;
+                border-radius: 8px;
+                color: #f2f2f2;
+                font-family: 'Playfair';
+                font-size: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+
+                .BTN a{
+                   
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+/*header*/
+
+header{
+    width: 1440px;
+    height: 137px;
+    margin: 0 auto;
+    background-color: #961919;
+
+}
+
+    nav {
+        font-family: 'BaskerVille';
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        height: 100%;
+    }
+
+        #logo{
+            margin-left: 30px;
+            font-family: 'BaskerVille';
+            color:#fcfcfc;
+            font-weight: bold;
+            font-size: 24pt;
+        }
+
+        ul {
+            font-size: 24pt;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+            ul li{
+                margin-left: 15px;
+            }
+
+                ul li:last-child {
+                    margin-right: 82px;
+                }
+
+            nav a {
+                text-decoration: none;
+                color: rgba(217,217,217,0.85)
+            }
+
+            nav a.current {
+                color: #fcfcfc;
+                font-weight: bold;
+            }
+
+
+
+
+/*section*/
+
+section{
+    margin: 0 auto 50px;
+    width: 1440px;
+}
+
+    #Article{
+        margin: 0 auto;
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+
+        .Card{
+            margin: 20px 0;
+            border-radius: 10px;
+            background-color: #fcfcfc;
+            height: 546px;
+            width: 370px;
+            position: relative;
+        }
+            .Card .img img{
+                width: 370px;
+                height: 275px;
+                border-radius: 10px 10px 0 0;
+            }
+
+            .element2{
+                position: absolute;
+                bottom: 16px;
+                right: 14px;
+            }
+
+            .title{
+                font-family: 'BaskerVille';
+                font-size: 18pt;
+                width: 325px;
+                position: absolute;
+                top: 299px;
+                left: 22px
+            }
+
+            .legende{
+                font-family: 'Playfair';
+                font-style: italic;
+                font-size: 11pt;
+                position: absolute;
+                top: 370px;
+                right: 29px;
+
+            }
+
+            .textbox{
+                width: 325px;
+                height: 80px;
+                position: absolute;
+                top: 400px;
+                right: 16px;
+                overflow: auto;
+                font-family: 'BaskerVille';
+                font-size: 12pt;
+                color:#0d0d0d;
+            }
+
+
+/*footer*/
+
+footer{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    margin: 150px auto 0 ;
+    color: #fcfcfc;
+    background-color: #961919;
+    justify-content: center;
+    align-items: center;
+
+}
